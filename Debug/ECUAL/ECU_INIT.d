@@ -1,5 +1,6 @@
-APP.o APP.o: ../APP.c ../APP.h ../ECUAL/ECU_INIT.h ../ECUAL/LED/ECU_LED.h \
-  ../ECUAL/LED/ECU_LED_CFG.h ../ECUAL/LED/../../MCAL/GPIO/HAL_GPIO.h \
+ECUAL/ECU_INIT.o ECUAL/ECU_INIT.o: ../ECUAL/ECU_INIT.c \
+  ../ECUAL/ECU_INIT.h ../ECUAL/LED/ECU_LED.h ../ECUAL/LED/ECU_LED_CFG.h \
+  ../ECUAL/LED/../../MCAL/GPIO/HAL_GPIO.h \
   ../ECUAL/LED/../../MCAL/GPIO/../MCAL_Std_Types.h \
   ../ECUAL/LED/../../MCAL/GPIO/../MCAL_Std_Libraries.h \
   ../ECUAL/LED/../../MCAL/GPIO/../Compiler.h \
@@ -15,8 +16,6 @@ APP.o APP.o: ../APP.c ../APP.h ../ECUAL/ECU_INIT.h ../ECUAL/LED/ECU_LED.h \
   ../ECUAL/7\ Segment/ECU_7_Segment_CFG.h ../ECUAL/Keypad/ECU_KEYPAD.h \
   ../ECUAL/Keypad/../../MCAL/GPIO/HAL_GPIO.h \
   ../ECUAL/Keypad/ECU_KEYPAD_CFG.h
-
-../APP.h:
 
 ../ECUAL/ECU_INIT.h:
 

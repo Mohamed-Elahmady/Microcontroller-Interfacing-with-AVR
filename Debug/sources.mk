@@ -22,8 +22,13 @@ C_DEPS :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 . \
+ECUAL/7\ Segment \
 ECUAL/BTN \
+ECUAL/DC_MOTOR \
+ECUAL \
+ECUAL/Keypad \
 ECUAL/LED \
+ECUAL/Relay \
 MCAL \
 MCAL/GPIO \
 

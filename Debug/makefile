@@ -10,8 +10,13 @@ RM := rm -rf
 -include sources.mk
 -include MCAL/GPIO/subdir.mk
 -include MCAL/subdir.mk
+-include ECUAL/Relay/subdir.mk
 -include ECUAL/LED/subdir.mk
+-include ECUAL/Keypad/subdir.mk
+-include ECUAL/DC_MOTOR/subdir.mk
 -include ECUAL/BTN/subdir.mk
+-include ECUAL/7\ Segment/subdir.mk
+-include ECUAL/subdir.mk
 -include subdir.mk
 -include objects.mk
 
