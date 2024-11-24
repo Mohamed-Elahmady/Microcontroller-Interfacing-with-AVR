@@ -14,6 +14,9 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <util/delay.h>
+
 
 /* Section 2 : Macros Declarations */
 

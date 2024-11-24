@@ -24,11 +24,14 @@ SUBDIRS := \
 . \
 ECUAL/7\ Segment \
 ECUAL/BTN \
+ECUAL/CHAR\ LCD \
 ECUAL/DC_MOTOR \
 ECUAL \
 ECUAL/Keypad \
 ECUAL/LED \
 ECUAL/Relay \
 MCAL \
+MCAL/EEPROM \
 MCAL/GPIO \
+MCAL/Interrupt \
 

@@ -15,7 +15,21 @@ ECUAL/ECU_INIT.o ECUAL/ECU_INIT.o: ../ECUAL/ECU_INIT.c \
   ../ECUAL/7\ Segment/../../MCAL/GPIO/HAL_GPIO.h \
   ../ECUAL/7\ Segment/ECU_7_Segment_CFG.h ../ECUAL/Keypad/ECU_KEYPAD.h \
   ../ECUAL/Keypad/../../MCAL/GPIO/HAL_GPIO.h \
-  ../ECUAL/Keypad/ECU_KEYPAD_CFG.h
+  ../ECUAL/Keypad/ECU_KEYPAD_CFG.h ../ECUAL/CHAR\ LCD/CHR_LCD.h \
+  ../ECUAL/CHAR\ LCD/../../MCAL/GPIO/HAL_GPIO.h \
+  ../ECUAL/CHAR\ LCD/CHR_LCD_CFG.h \
+  ../ECUAL/../MCAL/Interrupt/HAL_INT_INTERRUPT.h \
+  ../ECUAL/../MCAL/Interrupt/HAL_INTERRUPT_CFG.h \
+  ../ECUAL/../MCAL/Interrupt/HAL_INTERRUPT_CFG_GEN.h \
+  ../ECUAL/../MCAL/Interrupt/../GPIO/HAL_GPIO.h \
+  ../ECUAL/../MCAL/Interrupt/../MCAL_Std_Types.h \
+  ../ECUAL/../MCAL/Interrupt/../Device_CFG.h \
+  ../ECUAL/../MCAL/Interrupt/HAL_EXT_INTERRUPT.h \
+  ../ECUAL/../MCAL/EEPROM/HAL_EEPROM.h \
+  ../ECUAL/../MCAL/EEPROM/HAL_EEPROM_CFG.h \
+  ../ECUAL/../MCAL/EEPROM/../Interrupt/HAL_INTERRUPT_CFG.h \
+  ../ECUAL/../MCAL/EEPROM/../MCAL_Std_Types.h \
+  ../ECUAL/../MCAL/EEPROM/../Device_CFG.h
 
 ../ECUAL/ECU_INIT.h:
 
@@ -64,3 +78,33 @@ ECUAL/ECU_INIT.o ECUAL/ECU_INIT.o: ../ECUAL/ECU_INIT.c \
 ../ECUAL/Keypad/../../MCAL/GPIO/HAL_GPIO.h:
 
 ../ECUAL/Keypad/ECU_KEYPAD_CFG.h:
+
+../ECUAL/CHAR\ LCD/CHR_LCD.h:
+
+../ECUAL/CHAR\ LCD/../../MCAL/GPIO/HAL_GPIO.h:
+
+../ECUAL/CHAR\ LCD/CHR_LCD_CFG.h:
+
+../ECUAL/../MCAL/Interrupt/HAL_INT_INTERRUPT.h:
+
+../ECUAL/../MCAL/Interrupt/HAL_INTERRUPT_CFG.h:
+
+../ECUAL/../MCAL/Interrupt/HAL_INTERRUPT_CFG_GEN.h:
+
+../ECUAL/../MCAL/Interrupt/../GPIO/HAL_GPIO.h:
+
+../ECUAL/../MCAL/Interrupt/../MCAL_Std_Types.h:
+
+../ECUAL/../MCAL/Interrupt/../Device_CFG.h:
+
+../ECUAL/../MCAL/Interrupt/HAL_EXT_INTERRUPT.h:
+
+../ECUAL/../MCAL/EEPROM/HAL_EEPROM.h:
+
+../ECUAL/../MCAL/EEPROM/HAL_EEPROM_CFG.h:
+
+../ECUAL/../MCAL/EEPROM/../Interrupt/HAL_INTERRUPT_CFG.h:
+
+../ECUAL/../MCAL/EEPROM/../MCAL_Std_Types.h:
+
+../ECUAL/../MCAL/EEPROM/../Device_CFG.h:

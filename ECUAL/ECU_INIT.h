@@ -18,6 +18,10 @@
 #include "DC_MOTOR/ECU_DC_MOTOR.h"
 #include "7 Segment/ECU_7_Segment.h"
 #include "Keypad/ECU_KEYPAD.h"
+#include "CHAR LCD/CHR_LCD.h"
+#include "../MCAL/Interrupt/HAL_INT_INTERRUPT.h"
+#include "../MCAL/Interrupt/HAL_EXT_INTERRUPT.h"
+#include "../MCAL/EEPROM/HAL_EEPROM.h"
 
 /* Section 2 : Macros Declarations */
 

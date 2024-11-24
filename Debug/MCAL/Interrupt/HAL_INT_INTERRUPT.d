@@ -1,0 +1,2 @@
+MCAL/Interrupt/HAL_INT_INTERRUPT.o MCAL/Interrupt/HAL_INT_INTERRUPT.o:  \
+ ../MCAL/Interrupt/HAL_INT_INTERRUPT.c

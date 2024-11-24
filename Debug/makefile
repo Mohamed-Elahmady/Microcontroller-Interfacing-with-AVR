@@ -8,12 +8,15 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include MCAL/Interrupt/subdir.mk
 -include MCAL/GPIO/subdir.mk
+-include MCAL/EEPROM/subdir.mk
 -include MCAL/subdir.mk
 -include ECUAL/Relay/subdir.mk
 -include ECUAL/LED/subdir.mk
 -include ECUAL/Keypad/subdir.mk
 -include ECUAL/DC_MOTOR/subdir.mk
+-include ECUAL/CHAR\ LCD/subdir.mk
 -include ECUAL/BTN/subdir.mk
 -include ECUAL/7\ Segment/subdir.mk
 -include ECUAL/subdir.mk

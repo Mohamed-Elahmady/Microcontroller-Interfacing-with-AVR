@@ -14,6 +14,7 @@
 /* Section 1 : Includes */
 
 #include <avr/io.h>
+#include <avr/interrupt.h>
 
 /* Section 2 : Macros Declarations */
 
